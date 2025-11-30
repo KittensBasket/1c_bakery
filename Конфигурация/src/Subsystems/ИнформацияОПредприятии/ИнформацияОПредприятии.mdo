@@ -7,4 +7,14 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Клиенты</content>
+  <content>Catalog.Подразделения</content>
+  <content>Catalog.ПродукцияИМатериалы</content>
+  <content>Catalog.Районы</content>
+  <content>Catalog.ТанспортныеСредства</content>
+  <content>InformationRegister.ЦеныПродукции</content>
+  <content>InformationRegister.ШаблонЗаказов</content>
+  <content>DataProcessor.Обработка</content>
+  <content>Document.Заказ</content>
+  <content>Catalog.Маршруты</content>
 </mdclass:Subsystem>
