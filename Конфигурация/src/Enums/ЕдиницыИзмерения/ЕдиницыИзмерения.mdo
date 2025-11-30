@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2980e426-3573-4aa4-b900-d545b68246ad">
+  <producedTypes>
+    <refType typeId="536f383c-8178-4e00-b5de-63b7619a936b" valueTypeId="6f5fa9ef-dd35-481e-946a-26eb63d7b956"/>
+    <listType typeId="11658042-257b-4a0d-9d1f-53decd64db89" valueTypeId="1cc3650c-5c01-45cf-886a-00508024930d"/>
+    <managerType typeId="25a15d6e-91e9-4078-9a2f-b0f8471767d4" valueTypeId="ae0eec18-c52b-439e-98ac-689ec35e6105"/>
+  </producedTypes>
+  <name>ЕдиницыИзмерения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Единицы измерения</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="f02ae1b1-6403-4a2e-bbd8-9931d59622ea">
+    <name>Шт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шт</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="de7f7cac-d7c5-47b8-a2e9-2e542ba12460">
+    <name>Ящик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ящик</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e8e8e2b4-3f28-4fd7-99b4-bc30f5daffb9">
+    <name>Мешок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Мешок</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

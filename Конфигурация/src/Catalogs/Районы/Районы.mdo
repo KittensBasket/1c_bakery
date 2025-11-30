@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1a84c6a1-6294-4878-bf3d-36cf584e87b8">
+  <producedTypes>
+    <objectType typeId="2ffe7a0f-e9ea-43b4-966e-8ab890692b67" valueTypeId="82b5b817-2903-4537-bb95-7f82eaa364ed"/>
+    <refType typeId="98acb856-ceb3-424f-b714-2468a92ffca8" valueTypeId="7d1d789d-759f-45f3-be19-0e5e01ecdd1b"/>
+    <selectionType typeId="4dc295b0-9b2a-4a15-b1da-13e6b1b73adf" valueTypeId="d3ab7aab-df28-4be5-8bf7-10310ad7dda6"/>
+    <listType typeId="9873f672-3d56-4329-9411-7ea20e437071" valueTypeId="7d0ebd66-b8fe-4390-942c-978627ef78bb"/>
+    <managerType typeId="5c1d70de-fa20-462c-a836-01d755c6053f" valueTypeId="e208fb92-3288-48ed-b786-8d598e316efd"/>
+  </producedTypes>
+  <name>Районы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Районы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Районы.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Районы.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="e2a8143c-a972-407b-b5ec-05de5ea102ad">
+      <name>Центр</name>
+      <description>Центр</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="3c76aa28-d256-4e22-9894-138f18df5ca4">
+      <name>Куковка</name>
+      <description>Куковка</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="234ad43a-d995-4f61-a135-27eb45e821c3">
+      <name>Древлянка</name>
+      <description>Древлянка</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+    <items id="4b48bc48-eec3-4c2c-8f1b-365c430a4ba0">
+      <name>Первомайка</name>
+      <description>Первомайка</description>
+      <code xsi:type="core:StringValue">
+        <value>000000004</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>
