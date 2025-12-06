@@ -11,10 +11,10 @@
   <content>Catalog.Подразделения</content>
   <content>Catalog.ПродукцияИМатериалы</content>
   <content>Catalog.Районы</content>
-  <content>Catalog.ТанспортныеСредства</content>
+  <content>Catalog.ТранспортныеСредства</content>
   <content>InformationRegister.ЦеныПродукции</content>
   <content>InformationRegister.ШаблонЗаказов</content>
-  <content>DataProcessor.Обработка</content>
   <content>Document.Заказ</content>
   <content>Catalog.Маршруты</content>
+  <content>DataProcessor.РабочееМестоМенеджера</content>
 </mdclass:Subsystem>
