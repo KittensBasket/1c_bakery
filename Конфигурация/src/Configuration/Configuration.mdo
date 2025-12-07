@@ -48,10 +48,14 @@
   <catalogs>Catalog.Подразделения</catalogs>
   <catalogs>Catalog.ПродукцияИМатериалы</catalogs>
   <catalogs>Catalog.Районы</catalogs>
-  <catalogs>Catalog.ТанспортныеСредства</catalogs>
+  <catalogs>Catalog.ТранспортныеСредства</catalogs>
+  <documents>Document.ВыпускПродукции</documents>
   <documents>Document.Заказ</documents>
   <enums>Enum.ЕдиницыИзмерения</enums>
-  <dataProcessors>DataProcessor.Обработка</dataProcessors>
+  <reports>Report.ОтчетПоЗаказам</reports>
+  <dataProcessors>DataProcessor.НеподтвержденныеЗаказы</dataProcessors>
+  <dataProcessors>DataProcessor.РабочееМестоМенеджера</dataProcessors>
   <informationRegisters>InformationRegister.ЦеныПродукции</informationRegisters>
   <informationRegisters>InformationRegister.ШаблонЗаказов</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.ОстаткиПродукции</accumulationRegisters>
 </mdclass:Configuration>

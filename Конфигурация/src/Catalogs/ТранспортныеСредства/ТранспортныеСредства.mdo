@@ -7,14 +7,14 @@
     <listType typeId="a2fb166b-30cc-4fcf-a20e-f0d6b2a1fb7c" valueTypeId="a501c703-d7fa-46d7-9d4b-0f74ee3e1f58"/>
     <managerType typeId="3785ee76-dbd0-4bed-ab91-bf924657041a" valueTypeId="6c1480cf-1ef1-4892-8122-c830662ee6af"/>
   </producedTypes>
-  <name>ТанспортныеСредства</name>
+  <name>ТранспортныеСредства</name>
   <synonym>
     <key>ru</key>
-    <value>Танспортные средства</value>
+    <value>Транспортные средства</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Catalog.ТанспортныеСредства.StandardAttribute.Code</inputByString>
-  <inputByString>Catalog.ТанспортныеСредства.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.ТранспортныеСредства.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ТранспортныеСредства.StandardAttribute.Description</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
