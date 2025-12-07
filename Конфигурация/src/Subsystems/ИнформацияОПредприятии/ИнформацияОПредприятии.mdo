@@ -17,4 +17,7 @@
   <content>Document.Заказ</content>
   <content>Catalog.Маршруты</content>
   <content>DataProcessor.РабочееМестоМенеджера</content>
+  <content>Report.ОтчетПоЗаказам</content>
+  <content>Document.ВыпускПродукции</content>
+  <content>DataProcessor.НеподтвержденныеЗаказы</content>
 </mdclass:Subsystem>
