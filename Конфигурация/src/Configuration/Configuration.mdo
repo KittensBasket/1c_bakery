@@ -46,16 +46,25 @@
   <catalogs>Catalog.Клиенты</catalogs>
   <catalogs>Catalog.Маршруты</catalogs>
   <catalogs>Catalog.Подразделения</catalogs>
+  <catalogs>Catalog.Поставщики</catalogs>
   <catalogs>Catalog.ПродукцияИМатериалы</catalogs>
   <catalogs>Catalog.Районы</catalogs>
   <catalogs>Catalog.ТранспортныеСредства</catalogs>
   <documents>Document.ВыпускПродукции</documents>
   <documents>Document.Заказ</documents>
+  <documents>Document.ОплатаКлиентом</documents>
+  <documents>Document.ОтгрузкаКлиенту</documents>
+  <documents>Document.ПриходнаяНакладнаяМатериалов</documents>
+  <documents>Document.РасходнаяНакладнаяНаМатериалы</documents>
+  <documents>Document.СпецификацияПродукции</documents>
   <enums>Enum.ЕдиницыИзмерения</enums>
   <reports>Report.ОтчетПоЗаказам</reports>
   <dataProcessors>DataProcessor.НеподтвержденныеЗаказы</dataProcessors>
   <dataProcessors>DataProcessor.РабочееМестоМенеджера</dataProcessors>
+  <informationRegisters>InformationRegister.СпецификацииПродукции</informationRegisters>
   <informationRegisters>InformationRegister.ЦеныПродукции</informationRegisters>
   <informationRegisters>InformationRegister.ШаблонЗаказов</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.ВзаиморасчетыСКлиентами</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ВзаиморасчетыСПоставщиками</accumulationRegisters>
   <accumulationRegisters>AccumulationRegister.ОстаткиПродукции</accumulationRegisters>
 </mdclass:Configuration>
