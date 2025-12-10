@@ -20,4 +20,9 @@
   <content>Report.ОтчетПоЗаказам</content>
   <content>Document.ВыпускПродукции</content>
   <content>DataProcessor.НеподтвержденныеЗаказы</content>
+  <content>Document.ПриходнаяНакладнаяМатериалов</content>
+  <content>Document.СпецификацияПродукции</content>
+  <content>Document.РасходнаяНакладнаяНаМатериалы</content>
+  <content>Document.ОтгрузкаКлиенту</content>
+  <content>Document.ОплатаКлиентом</content>
 </mdclass:Subsystem>

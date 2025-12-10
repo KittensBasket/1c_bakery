@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f47e9708-83e7-4e6b-8bb0-1a2d73cb9424">
+  <producedTypes>
+    <selectionType typeId="d4dc5b29-fd3c-4aaf-95f4-971546bcdabf" valueTypeId="f5b50d9e-0e0f-426c-8363-6d4ed27b067f"/>
+    <listType typeId="b0822b6b-6839-40c8-936e-ced702210791" valueTypeId="2d644a70-777a-4019-8be5-80b62142029a"/>
+    <managerType typeId="bdc8b5e4-0da7-4c8c-bb50-aa027c10e0e8" valueTypeId="1c6d5504-68fc-4bd3-b14f-da714a50ab9a"/>
+    <recordSetType typeId="150c6541-9ff7-4854-ba51-b994d15ed485" valueTypeId="3bcd73dd-da69-45b2-80b0-8782c51fa7ce"/>
+    <recordKeyType typeId="7b31237a-fdb3-4c2f-a417-798002bdd744" valueTypeId="dd93b2d9-f0ad-497b-a25f-3cb9a26c7c8b"/>
+    <recordType typeId="54d52124-bbe2-4fd5-9c9b-942fe3b98bd5" valueTypeId="0988119f-5ff6-4e51-9359-358c4b3b316a"/>
+  </producedTypes>
+  <name>ВзаиморасчетыСПоставщиками</name>
+  <synonym>
+    <key>ru</key>
+    <value>Взаиморасчеты с поставщиками</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="2ba4a5c9-10f6-4c8e-9532-a6dcc7ebf939">
+    <name>СуммаВзаиморасчетов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма взаиморасчетов</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="208a8005-0d18-4849-8737-be12959e8357">
+    <name>Поставщик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поставщик</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Поставщики</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>
