@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="55891cf6-922c-43a0-9ea5-e114126e1aa4">
+  <producedTypes>
+    <objectType typeId="665eb1ba-c4f4-48f7-a4af-4af599f8305b" valueTypeId="446b0b5d-cc36-4c67-8e0c-8da1f29bb7ac"/>
+    <refType typeId="ea11e0b7-27c8-4506-b658-c3211ab95221" valueTypeId="7c46b9f6-09df-4c92-891b-fcc0566ab1f3"/>
+    <selectionType typeId="a9cf5faa-be8f-4be7-9669-74c5a97f4c69" valueTypeId="4e753dfa-fdea-42d8-b706-9acd9fd354ed"/>
+    <listType typeId="a7c32db1-7938-4492-ac51-dae8da79aa3d" valueTypeId="04db2bcc-88fd-493f-ac6b-58f49fe6892f"/>
+    <managerType typeId="b08546aa-09dd-4f92-93cf-27914c1a69b0" valueTypeId="9e86f027-0fb6-43e1-9edf-cab3ff91ddf6"/>
+  </producedTypes>
+  <name>СпецификацияПродукции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Спецификация продукции</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.СпецификацияПродукции.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.СпецификацияПродукции.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>InformationRegister.СпецификацииПродукции</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="635061ea-9d7a-41da-b651-3a517b44e0b4">
+    <name>Продукция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продукция</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПродукцияИМатериалы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d8e4aace-d9ac-429e-96a0-bbfb948c8248">
+    <name>КоличествоПродукцииНаБазу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество продукции на базу</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="58049e16-8834-491c-b1fd-362ad0f89638">
+    <name>ЕдиницаПродукции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Единица продукции</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ЕдиницыИзмерения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="ea9eeaf7-3273-4217-b0bd-2ca84a879fa5">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="0b0ba5f7-674e-48bf-a2ab-75ae6b9a84f9">
+    <producedTypes>
+      <objectType typeId="32537d3f-4a83-4603-ad55-455c10fb8429" valueTypeId="4004564d-ce6b-4b40-9e2b-72ce7a3075b3"/>
+      <rowType typeId="c2b6c25b-c22d-4afb-93f5-5d6feb19a9d9" valueTypeId="71bd554f-692c-46aa-a9a8-d4ce2f1cfd40"/>
+    </producedTypes>
+    <name>СоставМатериалов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Состав материалов</value>
+    </synonym>
+    <attributes uuid="aac101bd-7089-4255-a239-380cd9313555">
+      <name>Материал</name>
+      <synonym>
+        <key>ru</key>
+        <value>Материал</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ПродукцияИМатериалы</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="370b42cc-0c4c-4c79-8f5b-1a003e211ad6">
+      <name>КоличествоМатериала</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество материала</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>3</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="415dfa06-7323-4db5-97c6-1947ab5a798f">
+      <name>ЕдиницаИзмерения</name>
+      <synonym>
+        <key>ru</key>
+        <value>Единица измерения</value>
+      </synonym>
+      <type>
+        <types>EnumRef.ЕдиницыИзмерения</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <lineNumberLength>9</lineNumberLength>
+  </tabularSections>
+</mdclass:Document>
