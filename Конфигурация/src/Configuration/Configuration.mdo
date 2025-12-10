@@ -3,7 +3,7 @@
   <name>Конфигурация</name>
   <synonym>
     <key>ru</key>
-    <value>Конфигурация2</value>
+    <value>Печка Емеля</value>
   </synonym>
   <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="cc813e6b-c314-45b5-9e4a-4a653c349d7f"/>
   <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="51bab862-dea3-4a08-ad66-c584dbe05621"/>
@@ -27,7 +27,6 @@
   <defaultLanguage>Language.Русский</defaultLanguage>
   <dataLockControlMode>Managed</dataLockControlMode>
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
-  <modalityUseMode>DontUse</modalityUseMode>
   <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
   <compatibilityMode>8.3.27</compatibilityMode>
   <languages uuid="9cde717b-e0d8-44bf-a3db-93df37db816f">
@@ -38,4 +37,34 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.ИнформацияОПредприятии</subsystems>
+  <commonModules>CommonModule.РаботаСоСправочниками</commonModules>
+  <constants>Constant.АдресОрганизации</constants>
+  <constants>Constant.ИННОрганизации</constants>
+  <constants>Constant.КППОрганизации</constants>
+  <constants>Constant.НазваниеОрганизации</constants>
+  <catalogs>Catalog.Клиенты</catalogs>
+  <catalogs>Catalog.Маршруты</catalogs>
+  <catalogs>Catalog.Подразделения</catalogs>
+  <catalogs>Catalog.Поставщики</catalogs>
+  <catalogs>Catalog.ПродукцияИМатериалы</catalogs>
+  <catalogs>Catalog.Районы</catalogs>
+  <catalogs>Catalog.ТранспортныеСредства</catalogs>
+  <documents>Document.ВыпускПродукции</documents>
+  <documents>Document.Заказ</documents>
+  <documents>Document.ОплатаКлиентом</documents>
+  <documents>Document.ОтгрузкаКлиенту</documents>
+  <documents>Document.ПриходнаяНакладнаяМатериалов</documents>
+  <documents>Document.РасходнаяНакладнаяНаМатериалы</documents>
+  <documents>Document.СпецификацияПродукции</documents>
+  <enums>Enum.ЕдиницыИзмерения</enums>
+  <reports>Report.ОтчетПоЗаказам</reports>
+  <dataProcessors>DataProcessor.НеподтвержденныеЗаказы</dataProcessors>
+  <dataProcessors>DataProcessor.РабочееМестоМенеджера</dataProcessors>
+  <informationRegisters>InformationRegister.СпецификацииПродукции</informationRegisters>
+  <informationRegisters>InformationRegister.ЦеныПродукции</informationRegisters>
+  <informationRegisters>InformationRegister.ШаблонЗаказов</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.ВзаиморасчетыСКлиентами</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ВзаиморасчетыСПоставщиками</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ОстаткиПродукции</accumulationRegisters>
 </mdclass:Configuration>

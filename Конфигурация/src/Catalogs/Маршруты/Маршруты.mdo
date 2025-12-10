@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a956f05d-c58c-4480-99a0-712f3514e2e1">
+  <producedTypes>
+    <objectType typeId="56310bd1-f1e5-4131-9674-7ed0de582bd5" valueTypeId="77cafcb9-b5fb-4476-84ca-84087c3df4fb"/>
+    <refType typeId="a2ef258e-5a28-49e6-9192-11a563942377" valueTypeId="43106882-f6ca-4a73-8d2f-e9b2a9f64a3a"/>
+    <selectionType typeId="cd39e8e7-84ff-4d1b-a23f-ef6ed82b2104" valueTypeId="3f1776d9-09ac-4221-82a2-864112b7c749"/>
+    <listType typeId="3478a97a-91b5-452d-bd2f-8800a7349abd" valueTypeId="68038b49-30f4-468b-a138-5a882d6729cd"/>
+    <managerType typeId="e2d4d70d-ad0d-4370-b104-a85e39f488b8" valueTypeId="3dc653d2-0d52-47d0-801f-1fea6f64e45f"/>
+  </producedTypes>
+  <name>Маршруты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Маршруты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Маршруты.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Маршруты.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Маршруты.Form.ФормаЭлемента</defaultObjectForm>
+  <tabularSections uuid="484bbb23-878a-457b-8551-de15ebaeb220">
+    <producedTypes>
+      <objectType typeId="8ee96293-2e3c-4b97-8f17-21d2fea7281f" valueTypeId="e2255d53-607e-40ea-afe0-75629e2d7759"/>
+      <rowType typeId="801ee9c9-68d9-41d1-a966-2b7fbc7c05ac" valueTypeId="8db89fcf-b364-4e01-944d-8be01ac8bf42"/>
+    </producedTypes>
+    <name>СписокКлиентов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список клиентов</value>
+    </synonym>
+    <attributes uuid="524ce682-1e6b-46ea-b3af-286d6f95d79f">
+      <name>Клиент</name>
+      <synonym>
+        <key>ru</key>
+        <value>Клиент</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Клиенты</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f1157567-99c2-43de-b510-6a2040861cce">
+      <name>Район</name>
+      <synonym>
+        <key>ru</key>
+        <value>Район</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <lineNumberLength>9</lineNumberLength>
+  </tabularSections>
+  <forms uuid="7de72368-2dbc-4623-a1a1-60affe97d655">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

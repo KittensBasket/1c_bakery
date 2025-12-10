@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="51f345a5-a5bd-4b45-a16c-90162319d80d">
+  <producedTypes>
+    <selectionType typeId="61a3aa4a-0ab7-4689-b182-c72e62dcfb71" valueTypeId="00e8651d-6400-4607-b130-9dffeda9c24d"/>
+    <listType typeId="757bf237-339d-42fe-ac0f-5cdd9f187d28" valueTypeId="b9633ce6-1243-4c4a-901e-d0983722aaf3"/>
+    <managerType typeId="9c0f5ff0-81fb-402d-8edc-0215af843290" valueTypeId="2cb2efde-0b97-4827-a965-1b78a82ccc7a"/>
+    <recordSetType typeId="1f60ccd9-c7e1-435f-b5e0-1c07b0d0d437" valueTypeId="53bbba6e-7398-443b-a967-832f48f80b8d"/>
+    <recordKeyType typeId="c543ad01-ad67-4ebc-a9fc-078a1c14e0ad" valueTypeId="41cce5ca-19ab-4796-9a8f-bb0dcdc8e642"/>
+    <recordType typeId="9e053caf-5487-4f89-9477-e50b1686d51a" valueTypeId="a452347a-8d72-491c-9a4e-ff1e25f021b0"/>
+    <recordManagerType typeId="368b9754-0a0c-4805-bf82-514ed80259c7" valueTypeId="08f4c3f0-0ab9-4f6e-91bf-67330a0384b5"/>
+  </producedTypes>
+  <name>СпецификацииПродукции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Спецификации продукции</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="d6cff690-edd2-4262-8a36-4f24494f2461">
+    <name>КоличествоМатериала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество материала</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="55d915b8-96ec-4f39-aa3c-9120fcdfd337">
+    <name>ЕдиницаИзмерения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Единица измерения</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ЕдиницыИзмерения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="36286623-b028-4a38-90db-8c08aa886f79">
+    <name>КоличествоПродукцииНаБазу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество продукции на базу</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>3</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="ef9af0ea-d73a-4d3c-9b6e-9f80a12dc1a4">
+    <name>ЕдиницаПродукции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Единица продукции</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ЕдиницыИзмерения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="0633e0f7-2711-4123-8c41-c66f47b83ada">
+    <name>Продукция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продукция</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПродукцияИМатериалы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="a813867d-3cc6-44ea-a02d-8932853494da">
+    <name>Материал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Материал</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ПродукцияИМатериалы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="6c74067e-5747-4e02-a2b4-be8c7e512228">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

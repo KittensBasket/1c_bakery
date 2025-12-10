@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="37ace952-da1f-4835-b019-67cb8788fe99">
+  <producedTypes>
+    <objectType typeId="b8b9641b-7c26-4ba3-9903-ee3f0ece2ca4" valueTypeId="2f68f134-c1ee-4351-b0bf-17d6f2ae7473"/>
+    <refType typeId="52a2a9e1-d5c1-483f-bf91-d3b8dd772c68" valueTypeId="124380c6-ba44-453f-bb25-147021a8e8c5"/>
+    <selectionType typeId="488d1278-6553-41bd-a54a-e0e1b54a2947" valueTypeId="d50f9ddc-b01a-419d-8fd5-9dd55cb3af6f"/>
+    <listType typeId="d9f9e37a-fc8e-4edd-a1cc-8eb6e3eba879" valueTypeId="41cd63ee-21ac-4d51-9d58-98c0a188b8a0"/>
+    <managerType typeId="6e3b0fcc-955d-46c3-8c6c-df0c7629bace" valueTypeId="3d2b49b2-8aba-415d-b85c-2493d8db48f9"/>
+  </producedTypes>
+  <name>Подразделения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подразделения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Подразделения.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Подразделения.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="9761fa36-de77-4a12-b426-2a89baf98261">
+      <name>Склады</name>
+      <description>Склады</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="37faf253-957c-41c7-aca2-2a237a83243c">
+        <name>Основной</name>
+        <description>Основной</description>
+        <code xsi:type="core:StringValue">
+          <value>000000003</value>
+        </code>
+      </content>
+      <content id="4f8c1574-b483-45f3-b01e-11bec6494a6e">
+        <name>Дополнительный</name>
+        <description>Дополнительный</description>
+        <code xsi:type="core:StringValue">
+          <value>000000004</value>
+        </code>
+      </content>
+    </items>
+    <items id="bf7425a5-f235-4762-ab7f-dcb818fd1346">
+      <name>Производства</name>
+      <description>Производства</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="3a370c75-80f4-487f-8693-d153a2c5988a">
+        <name>Главное</name>
+        <description>Главное</description>
+        <code xsi:type="core:StringValue">
+          <value>000000005</value>
+        </code>
+      </content>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

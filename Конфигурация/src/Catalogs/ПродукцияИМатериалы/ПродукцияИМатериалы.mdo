@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="70b4f48a-1080-4633-b571-09b649ce8c33">
+  <producedTypes>
+    <objectType typeId="b6940c21-54f9-47ea-a104-c8f49d9f522e" valueTypeId="69a45add-f8cf-4e48-9be7-26d808ddbab9"/>
+    <refType typeId="07b9beb8-242c-4a84-909f-b72e0e91d9b0" valueTypeId="190364c1-318c-43e1-8cc7-8a146f08e084"/>
+    <selectionType typeId="27071bd3-d78e-43ca-b922-62266e85cfb5" valueTypeId="d7773afe-2155-41cd-ab67-6a140add63a0"/>
+    <listType typeId="de57bb48-3144-4bfc-8edc-d3cb248c3f91" valueTypeId="2150cee2-3fa3-41b8-b6d9-12a40dc9e62c"/>
+    <managerType typeId="6dc00804-e20c-4b91-ae0b-460b6d4d809f" valueTypeId="fdc5743d-efda-4619-8a41-6ce0be827e5f"/>
+  </producedTypes>
+  <name>ПродукцияИМатериалы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Продукция и материалы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ПродукцияИМатериалы.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ПродукцияИМатериалы.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="2c6926d1-332c-4529-878d-76a52b1c6fe5">
+    <name>Вес</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вес</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="14281fa9-ae75-499d-87f2-9dfaad2908bd">
+    <name>ЕдиницаИзмерения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Единица измерения</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ЕдиницыИзмерения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

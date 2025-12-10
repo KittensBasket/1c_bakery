@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="66a86ad3-e583-477e-b4e7-7aaabb7309c0">
+  <name>ИнформацияОПредприятии</name>
+  <synonym>
+    <key>ru</key>
+    <value>Информация о предприятии</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Клиенты</content>
+  <content>Catalog.Подразделения</content>
+  <content>Catalog.ПродукцияИМатериалы</content>
+  <content>Catalog.Районы</content>
+  <content>Catalog.ТранспортныеСредства</content>
+  <content>InformationRegister.ЦеныПродукции</content>
+  <content>InformationRegister.ШаблонЗаказов</content>
+  <content>Document.Заказ</content>
+  <content>Catalog.Маршруты</content>
+  <content>DataProcessor.РабочееМестоМенеджера</content>
+  <content>Report.ОтчетПоЗаказам</content>
+  <content>Document.ВыпускПродукции</content>
+  <content>DataProcessor.НеподтвержденныеЗаказы</content>
+  <content>Document.ПриходнаяНакладнаяМатериалов</content>
+  <content>Document.СпецификацияПродукции</content>
+  <content>Document.РасходнаяНакладнаяНаМатериалы</content>
+  <content>Document.ОтгрузкаКлиенту</content>
+  <content>Document.ОплатаКлиентом</content>
+</mdclass:Subsystem>
