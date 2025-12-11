@@ -17,10 +17,10 @@
   <dataLockControlMode>Managed</dataLockControlMode>
   <enableTotalsSplitting>true</enableTotalsSplitting>
   <resources uuid="2ba4a5c9-10f6-4c8e-9532-a6dcc7ebf939">
-    <name>СуммаВзаиморасчетов</name>
+    <name>Сумма</name>
     <synonym>
       <key>ru</key>
-      <value>Сумма взаиморасчетов</value>
+      <value>Сумма</value>
     </synonym>
     <type>
       <types>Number</types>

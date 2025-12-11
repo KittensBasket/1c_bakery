@@ -26,4 +26,12 @@
   <content>Document.ОтгрузкаКлиенту</content>
   <content>Document.ОплатаКлиентом</content>
   <content>Document.РегистрацияМаршрута</content>
+  <content>Report.ОтчетОМатериалах</content>
+  <content>Catalog.Поставщики</content>
+  <content>AccumulationRegister.ВзаиморасчетыСКлиентами</content>
+  <content>AccumulationRegister.ВзаиморасчетыСПоставщиками</content>
+  <content>AccumulationRegister.ОстаткиПродукции</content>
+  <content>InformationRegister.СпецификацииПродукции</content>
+  <content>Report.ОтчетОПродукции</content>
+  <content>Report.ОтчетОВзаиморасчетах</content>
 </mdclass:Subsystem>

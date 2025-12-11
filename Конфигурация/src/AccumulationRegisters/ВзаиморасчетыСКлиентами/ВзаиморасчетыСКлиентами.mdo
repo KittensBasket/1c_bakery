@@ -17,10 +17,10 @@
   <dataLockControlMode>Managed</dataLockControlMode>
   <enableTotalsSplitting>true</enableTotalsSplitting>
   <resources uuid="8be5329a-ebe5-4129-b057-6c8029596137">
-    <name>СуммаДолга</name>
+    <name>Сумма</name>
     <synonym>
       <key>ru</key>
-      <value>Сумма долга</value>
+      <value>Сумма</value>
     </synonym>
     <type>
       <types>Number</types>
