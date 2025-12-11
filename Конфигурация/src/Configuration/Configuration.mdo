@@ -56,6 +56,7 @@
   <documents>Document.ОтгрузкаКлиенту</documents>
   <documents>Document.ПриходнаяНакладнаяМатериалов</documents>
   <documents>Document.РасходнаяНакладнаяНаМатериалы</documents>
+  <documents>Document.РегистрацияМаршрута</documents>
   <documents>Document.СпецификацияПродукции</documents>
   <enums>Enum.ЕдиницыИзмерения</enums>
   <reports>Report.ОтчетПоЗаказам</reports>
