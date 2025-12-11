@@ -59,6 +59,10 @@
   <documents>Document.РегистрацияМаршрута</documents>
   <documents>Document.СпецификацияПродукции</documents>
   <enums>Enum.ЕдиницыИзмерения</enums>
+  <enums>Enum.Номенклатура</enums>
+  <reports>Report.ОтчетОВзаиморасчетах</reports>
+  <reports>Report.ОтчетОМатериалах</reports>
+  <reports>Report.ОтчетОПродукции</reports>
   <reports>Report.ОтчетПоЗаказам</reports>
   <dataProcessors>DataProcessor.НеподтвержденныеЗаказы</dataProcessors>
   <dataProcessors>DataProcessor.РабочееМестоМенеджера</dataProcessors>
