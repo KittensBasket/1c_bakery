@@ -38,6 +38,12 @@
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.ИнформацияОПредприятии</subsystems>
+  <roles>Role.Администратор</roles>
+  <roles>Role.Бухгалтер</roles>
+  <roles>Role.МастерПроизводственнойСмены</roles>
+  <roles>Role.МенеджерЗаказов</roles>
+  <roles>Role.Технолог</roles>
+  <roles>Role.Экспедиторы</roles>
   <commonModules>CommonModule.РаботаСоСправочниками</commonModules>
   <constants>Constant.АдресОрганизации</constants>
   <constants>Constant.ИННОрганизации</constants>
