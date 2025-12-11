@@ -25,4 +25,5 @@
   <content>Document.РасходнаяНакладнаяНаМатериалы</content>
   <content>Document.ОтгрузкаКлиенту</content>
   <content>Document.ОплатаКлиентом</content>
+  <content>Document.РегистрацияМаршрута</content>
 </mdclass:Subsystem>
