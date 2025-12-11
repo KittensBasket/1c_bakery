@@ -98,22 +98,6 @@
 ИЗ
     РегистрНакопления.ВзаиморасчетыСПоставщиками.ОстаткиИОбороты КАК ВзаиморасчетыСПоставщиками</query>
 	</dataSet>
-	<totalField>
-		<dataPath>ДолгНаНачало</dataPath>
-		<expression>Сумма(ДолгНаНачало)</expression>
-	</totalField>
-	<totalField>
-		<dataPath>УвеличениеДолга</dataPath>
-		<expression>Сумма(УвеличениеДолга)</expression>
-	</totalField>
-	<totalField>
-		<dataPath>УменьшениеДолга</dataPath>
-		<expression>Сумма(УменьшениеДолга)</expression>
-	</totalField>
-	<totalField>
-		<dataPath>ДолгНаКонец</dataPath>
-		<expression>Сумма(ДолгНаКонец)</expression>
-	</totalField>
 	<parameter>
 		<name>НачалоПериода</name>
 		<title xsi:type="v8:LocalStringType">
