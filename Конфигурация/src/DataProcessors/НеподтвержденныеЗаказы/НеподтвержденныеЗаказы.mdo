@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b77fcebe-2f65-4c8c-922d-3fcf2cc4e129">
+  <producedTypes>
+    <objectType typeId="d5acd388-14da-4599-b6e0-2dc60a2b5e47" valueTypeId="2d01a1d4-d0b3-422b-9259-a9fd681d821f"/>
+    <managerType typeId="b9f88313-b5c3-45cc-adfd-6d829d2d51e4" valueTypeId="50f948aa-bd5b-4321-8e56-94cf3f90a183"/>
+  </producedTypes>
+  <name>НеподтвержденныеЗаказы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Неподтвержденные заказы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.НеподтвержденныеЗаказы.Form.Форма</defaultForm>
+  <forms uuid="40faebf4-fa88-4a74-b758-633b229e2c6f">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

@@ -38,6 +38,12 @@
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.ИнформацияОПредприятии</subsystems>
+  <roles>Role.Администратор</roles>
+  <roles>Role.Бухгалтер</roles>
+  <roles>Role.МастерПроизводственнойСмены</roles>
+  <roles>Role.МенеджерЗаказов</roles>
+  <roles>Role.Технолог</roles>
+  <roles>Role.Экспедиторы</roles>
   <commonModules>CommonModule.РаботаСоСправочниками</commonModules>
   <constants>Constant.АдресОрганизации</constants>
   <constants>Constant.ИННОрганизации</constants>
@@ -46,12 +52,30 @@
   <catalogs>Catalog.Клиенты</catalogs>
   <catalogs>Catalog.Маршруты</catalogs>
   <catalogs>Catalog.Подразделения</catalogs>
+  <catalogs>Catalog.Поставщики</catalogs>
   <catalogs>Catalog.ПродукцияИМатериалы</catalogs>
   <catalogs>Catalog.Районы</catalogs>
-  <catalogs>Catalog.ТанспортныеСредства</catalogs>
+  <catalogs>Catalog.ТранспортныеСредства</catalogs>
+  <documents>Document.ВыпускПродукции</documents>
   <documents>Document.Заказ</documents>
+  <documents>Document.ОплатаКлиентом</documents>
+  <documents>Document.ОтгрузкаКлиенту</documents>
+  <documents>Document.ПриходнаяНакладнаяМатериалов</documents>
+  <documents>Document.РасходнаяНакладнаяНаМатериалы</documents>
+  <documents>Document.РегистрацияМаршрута</documents>
+  <documents>Document.СпецификацияПродукции</documents>
   <enums>Enum.ЕдиницыИзмерения</enums>
-  <dataProcessors>DataProcessor.Обработка</dataProcessors>
+  <enums>Enum.Номенклатура</enums>
+  <reports>Report.ОтчетОВзаиморасчетах</reports>
+  <reports>Report.ОтчетОМатериалах</reports>
+  <reports>Report.ОтчетОПродукции</reports>
+  <reports>Report.ОтчетПоЗаказам</reports>
+  <dataProcessors>DataProcessor.НеподтвержденныеЗаказы</dataProcessors>
+  <dataProcessors>DataProcessor.РабочееМестоМенеджера</dataProcessors>
+  <informationRegisters>InformationRegister.СпецификацииПродукции</informationRegisters>
   <informationRegisters>InformationRegister.ЦеныПродукции</informationRegisters>
   <informationRegisters>InformationRegister.ШаблонЗаказов</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.ВзаиморасчетыСКлиентами</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ВзаиморасчетыСПоставщиками</accumulationRegisters>
+  <accumulationRegisters>AccumulationRegister.ОстаткиПродукции</accumulationRegisters>
 </mdclass:Configuration>

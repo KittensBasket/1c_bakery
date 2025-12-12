@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bd78057c-ecd4-4519-8fe2-5c3d6d603ab9">
+  <producedTypes>
+    <objectType typeId="2543d97e-e5ae-4ef5-a4c1-b8e5bf67532a" valueTypeId="f012426c-3f6a-43a6-9589-2e13c47cc039"/>
+    <refType typeId="2151860c-3585-4a7b-8763-3952ddb25a7e" valueTypeId="9a9c57be-380a-4ff4-ae78-5c03d817032e"/>
+    <selectionType typeId="369081df-62f8-4e39-9a2b-001bf97bee7d" valueTypeId="041c6b36-4e41-4271-a7a3-cab99d4a69aa"/>
+    <listType typeId="2b793c77-c1c2-44ea-9cc2-320b81c97d05" valueTypeId="8fa2b3c3-1409-45ac-a923-19b4ffe93437"/>
+    <managerType typeId="07ea55cb-befa-4897-8f47-db1825f70438" valueTypeId="6bf87319-6aca-42fb-8608-b7c8bbdabab2"/>
+  </producedTypes>
+  <name>ВыпускПродукции</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выпуск продукции</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ВыпускПродукции.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <registerRecords>AccumulationRegister.ОстаткиПродукции</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="77177d44-0718-4df1-b9db-917b26a20339">
+    <name>ДатаВыпуска</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата выпуска</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="a846ed50-2881-4d6f-9ee1-c06ee0b60b05">
+    <producedTypes>
+      <objectType typeId="9d795670-cd82-4c2e-bdb5-8d8e4a620bba" valueTypeId="03b57279-2ec3-4b90-9af6-09c2a6e13a2e"/>
+      <rowType typeId="e2b70ebb-ea01-40c9-ac9f-3d4ded92424c" valueTypeId="fff72855-cb20-47bd-b9bd-fd4cf8d7a886"/>
+    </producedTypes>
+    <name>Продукция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Продукция</value>
+    </synonym>
+    <attributes uuid="25bb0dd9-c1d0-4a03-aff7-a7f55334d9f5">
+      <name>Продукция</name>
+      <synonym>
+        <key>ru</key>
+        <value>Продукция</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ПродукцияИМатериалы</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c5c0409c-a37f-40ab-8491-897866b0db7d">
+      <name>Выпущено</name>
+      <synonym>
+        <key>ru</key>
+        <value>Выпущено</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="0573a7fa-d241-4d35-afe3-a4f9af6ca1ea">
+      <name>Брак</name>
+      <synonym>
+        <key>ru</key>
+        <value>Брак</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <lineNumberLength>9</lineNumberLength>
+  </tabularSections>
+</mdclass:Document>

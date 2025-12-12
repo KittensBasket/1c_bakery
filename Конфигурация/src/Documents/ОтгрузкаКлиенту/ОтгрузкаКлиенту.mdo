@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a86c2ed7-9449-4d33-9121-29ea82681845">
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2fb9e6d5-b431-47c7-833f-86c922576d8d">
   <producedTypes>
-    <objectType typeId="585063c0-e079-49e7-9cde-6977be8fbf23" valueTypeId="3ca80eb4-2e33-4310-9932-51a4d07310e6"/>
-    <refType typeId="b4c6f5e3-31f8-45c0-8f6b-16bd9de88d87" valueTypeId="83a73ed8-026b-4ad2-bbcf-550a8f6c79de"/>
-    <selectionType typeId="228163ce-6186-4fa5-930b-a70c8dc00634" valueTypeId="e077c185-7efc-4b48-b1c1-1600f382719d"/>
-    <listType typeId="7e3a40e0-25b5-4abe-8c68-676876c5051f" valueTypeId="7e702ae3-a46f-4ece-9f9f-cc566287ced7"/>
-    <managerType typeId="1a6b82bf-d805-4abe-92f8-854aac99b631" valueTypeId="f098956d-0018-49e2-88d5-36730ccb3099"/>
+    <objectType typeId="478cc681-9ac0-4fe4-9a46-2a3e1288ce77" valueTypeId="cd2890c3-3ed3-48be-84d1-b80935205075"/>
+    <refType typeId="0ee5f6bd-94cd-4b1e-b0cb-9ebb9c017953" valueTypeId="52dea3e4-8ad0-4627-8415-5cd80be5410e"/>
+    <selectionType typeId="05744b72-a2fb-42d9-a059-1349cee147bd" valueTypeId="94180acf-f602-4b42-b7a0-187b1f30dcba"/>
+    <listType typeId="5242d3c3-0840-40df-8635-5664149e9c51" valueTypeId="4ba508db-ecda-4c0f-8ecf-a5950225d93c"/>
+    <managerType typeId="97b0da70-2d58-4fce-9fc4-28b72276ac17" valueTypeId="41723718-76ae-44ed-88c7-eb2eb718b9ea"/>
   </producedTypes>
-  <name>Заказ</name>
+  <name>ОтгрузкаКлиенту</name>
   <synonym>
     <key>ru</key>
-    <value>Заказ</value>
+    <value>Отгрузка клиенту</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <inputByString>Document.Заказ.StandardAttribute.Number</inputByString>
+  <inputByString>Document.ОтгрузкаКлиенту.StandardAttribute.Number</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <createOnInput>Use</createOnInput>
   <dataLockControlMode>Managed</dataLockControlMode>
@@ -23,11 +23,11 @@
   <numberAllowedLength>Variable</numberAllowedLength>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
-  <defaultObjectForm>Document.Заказ.Form.ФормаДокумента</defaultObjectForm>
-  <registerRecords>AccumulationRegister.ВзаиморасчетыСКлиентами</registerRecords>
+  <defaultObjectForm>Document.ОтгрузкаКлиенту.Form.ОтгрузкаКлиенту</defaultObjectForm>
+  <registerRecords>AccumulationRegister.ОстаткиПродукции</registerRecords>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
-  <attributes uuid="f55a53b6-c909-4f48-b907-3ad300da8004">
+  <attributes uuid="3264a579-1ef7-4e03-9474-d0fb5cd6195c">
     <name>Клиент</name>
     <synonym>
       <key>ru</key>
@@ -42,17 +42,17 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="0295ba02-48c7-46d9-93ce-eb43cc1d4659">
-    <name>ДатаОтгрузки</name>
+  <attributes uuid="1cb972cb-afe9-4cce-8a76-c23730869ef3">
+    <name>Комментарий</name>
     <synonym>
       <key>ru</key>
-      <value>Дата отгрузки</value>
+      <value>Комментарий</value>
     </synonym>
     <type>
-      <types>Date</types>
-      <dateQualifiers>
-        <dateFractions>Date</dateFractions>
-      </dateQualifiers>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -60,41 +60,26 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="14452e1c-0ed2-4225-a030-09a58ffe0c27">
-    <name>Подтвержден</name>
+  <forms uuid="e8e6f832-f2fc-48ae-b54f-77dfa7353c43">
+    <name>ОтгрузкаКлиенту</name>
     <synonym>
       <key>ru</key>
-      <value>Подтвержден</value>
-    </synonym>
-    <type>
-      <types>Boolean</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <forms uuid="8040e393-9ee5-44ad-9494-fb557c9ebd70">
-    <name>ФормаДокумента</name>
-    <synonym>
-      <key>ru</key>
-      <value>Форма документа</value>
+      <value>Отгрузка клиенту</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <tabularSections uuid="c21cd865-e3ce-46f3-afdb-fd58962668ad">
+  <tabularSections uuid="a196fb2d-7019-48cc-b779-40f1fede9ddc">
     <producedTypes>
-      <objectType typeId="5a198068-ba23-4ec3-984f-5bb48ddee46c" valueTypeId="90ca3608-91c5-40e7-b657-838afb608dcd"/>
-      <rowType typeId="01def295-4aec-4fbf-8ab6-a223ad3b55f6" valueTypeId="f7c0bcf2-765a-42e1-b78e-f7e1ef6bb495"/>
+      <objectType typeId="abf45c84-1aed-4a38-af8c-04290bdab6b4" valueTypeId="87e44f83-7bf0-468c-92be-5386863eba19"/>
+      <rowType typeId="5b4c4e02-8c5c-4ff6-9031-e816315f9de3" valueTypeId="93ee8057-8944-4551-9474-7ac9060c34ee"/>
     </producedTypes>
     <name>Продукция</name>
     <synonym>
       <key>ru</key>
       <value>Продукция</value>
     </synonym>
-    <attributes uuid="e57e9d6d-1c33-4be3-8bd5-284b2abbf68c">
+    <attributes uuid="0eeba22c-3701-4add-9982-1c97086b231f">
       <name>Продукция</name>
       <synonym>
         <key>ru</key>
@@ -108,7 +93,7 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="edff2a9a-b3ed-4a07-8d7f-dca1c0e05a54">
+    <attributes uuid="487fe732-1e9d-4d2b-abc7-0be636e34908">
       <name>Количество</name>
       <synonym>
         <key>ru</key>
@@ -117,7 +102,8 @@
       <type>
         <types>Number</types>
         <numberQualifiers>
-          <precision>10</precision>
+          <precision>15</precision>
+          <scale>3</scale>
         </numberQualifiers>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
@@ -125,7 +111,7 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="16481509-6d30-4da2-821a-935a26039d4e">
+    <attributes uuid="fdafd384-0a7e-4164-901d-1623702fb773">
       <name>Цена</name>
       <synonym>
         <key>ru</key>
@@ -134,7 +120,7 @@
       <type>
         <types>Number</types>
         <numberQualifiers>
-          <precision>10</precision>
+          <precision>15</precision>
           <scale>2</scale>
         </numberQualifiers>
       </type>
@@ -143,7 +129,7 @@
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
-    <attributes uuid="d3538849-9731-4a7c-aa20-86767b63f65f">
+    <attributes uuid="f8d7de1d-ed00-43b7-9de2-eae4222c6879">
       <name>Сумма</name>
       <synonym>
         <key>ru</key>
@@ -152,7 +138,7 @@
       <type>
         <types>Number</types>
         <numberQualifiers>
-          <precision>10</precision>
+          <precision>15</precision>
           <scale>2</scale>
         </numberQualifiers>
       </type>

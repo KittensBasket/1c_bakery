@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3c22600e-1bdd-404e-8a91-2d2337de964a">
+  <producedTypes>
+    <objectType typeId="b613310e-7363-491a-aaf9-5e72a783fadf" valueTypeId="f3864531-7094-4129-a02b-5fa1bc09cb00"/>
+    <managerType typeId="d670aa90-ae1b-400d-bc37-6746212bd656" valueTypeId="5b315e60-f4b0-403c-9b83-ef0f3e04fafb"/>
+  </producedTypes>
+  <name>ОтчетОВзаиморасчетах</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отчет о взаиморасчетах</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ОтчетОВзаиморасчетах.Template.СхемаКомпоновки</mainDataCompositionSchema>
+  <templates uuid="1a2c0436-85d2-42d7-ab90-7be84f4fce3e">
+    <name>СхемаКомпоновки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема компоновки</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

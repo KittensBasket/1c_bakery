@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bb0abd29-fcc2-4db4-9058-4a40ff23ee50">
+  <producedTypes>
+    <objectType typeId="885197b9-5bc8-4f8a-997e-be5841ff5608" valueTypeId="a45ceb48-963a-48e9-93a0-5bda961a52fe"/>
+    <refType typeId="8e1dfb2b-b34f-4bac-8e29-aa8956419383" valueTypeId="c51bbd01-791d-4a47-96e0-8703ef4691d5"/>
+    <selectionType typeId="c8a5ad41-2fef-4e3e-b8f7-0cbdb128c41a" valueTypeId="9594c63d-a933-491e-a6af-b844fddcc58e"/>
+    <listType typeId="d011abbb-81c6-4c53-8fb1-22b2dcaa238d" valueTypeId="85cb0b22-31ef-4eb2-9a65-9fb61a7e7025"/>
+    <managerType typeId="09a19457-e694-4d2e-9ebc-53e6883689a8" valueTypeId="38359570-8478-40a4-ae98-c66cabd8c990"/>
+  </producedTypes>
+  <name>РегистрацияМаршрута</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регистрация маршрута</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.РегистрацияМаршрута.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.РегистрацияМаршрута.Form.ФормаДокумента</defaultObjectForm>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="0ce4e44d-6239-4fa7-a609-ef379a82042b">
+    <name>ТранспортноеСредство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Транспортное средство</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТранспортныеСредства</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0ff3fd72-eaf5-4d34-829f-d11584e71bcd">
+    <name>Вместимость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вместимость</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="6f4db138-39c4-421d-8297-cb2c3e229878">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="3e979bfa-00a6-48a5-a3a5-49774ea2b926">
+    <producedTypes>
+      <objectType typeId="41145c46-0958-4c11-aa66-dba5d8cd11a3" valueTypeId="3f8d11da-612e-4ade-89b3-274f7a0125c6"/>
+      <rowType typeId="95582e16-a687-4085-ade1-d2084511a1a5" valueTypeId="7255a7dc-df4d-453d-a54e-206d78058d15"/>
+    </producedTypes>
+    <name>СписокМаршрутов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список маршрутов</value>
+    </synonym>
+    <attributes uuid="ed557e3b-4a3b-4443-b234-044ab9d982a0">
+      <name>Маршрут</name>
+      <synonym>
+        <key>ru</key>
+        <value>Маршрут</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Маршруты</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <lineNumberLength>9</lineNumberLength>
+  </tabularSections>
+  <tabularSections uuid="a57b1e4d-a45f-4b91-bd7e-82ac63503ea0">
+    <producedTypes>
+      <objectType typeId="6a52700b-ae49-4db5-8a85-df56e48b7931" valueTypeId="de867a32-066e-4f47-a309-b754afd8887d"/>
+      <rowType typeId="48f469a4-c073-42cb-9885-df997f7d2c3e" valueTypeId="0d483421-1be0-4bb5-9bff-f112d7a402cd"/>
+    </producedTypes>
+    <name>ОтгрузкиКлиентам</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отгрузки клиентам</value>
+    </synonym>
+    <attributes uuid="c500a674-14d9-46c7-b3d8-5b742695b877">
+      <name>ОтгрузкаКлиенту</name>
+      <synonym>
+        <key>ru</key>
+        <value>Отгрузка клиенту</value>
+      </synonym>
+      <type>
+        <types>DocumentRef.ОтгрузкаКлиенту</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="6d0a0a40-2f38-40c0-8d1a-b75b8bad5876">
+      <name>Вес</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вес</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="05a416e0-e16a-49a7-b7a8-6b4edcabd6a7">
+      <name>Клиент</name>
+      <synonym>
+        <key>ru</key>
+        <value>Клиент</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Клиенты</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <lineNumberLength>9</lineNumberLength>
+  </tabularSections>
+</mdclass:Document>

@@ -11,10 +11,27 @@
   <content>Catalog.Подразделения</content>
   <content>Catalog.ПродукцияИМатериалы</content>
   <content>Catalog.Районы</content>
-  <content>Catalog.ТанспортныеСредства</content>
+  <content>Catalog.ТранспортныеСредства</content>
   <content>InformationRegister.ЦеныПродукции</content>
   <content>InformationRegister.ШаблонЗаказов</content>
-  <content>DataProcessor.Обработка</content>
   <content>Document.Заказ</content>
   <content>Catalog.Маршруты</content>
+  <content>DataProcessor.РабочееМестоМенеджера</content>
+  <content>Report.ОтчетПоЗаказам</content>
+  <content>Document.ВыпускПродукции</content>
+  <content>DataProcessor.НеподтвержденныеЗаказы</content>
+  <content>Document.ПриходнаяНакладнаяМатериалов</content>
+  <content>Document.СпецификацияПродукции</content>
+  <content>Document.РасходнаяНакладнаяНаМатериалы</content>
+  <content>Document.ОтгрузкаКлиенту</content>
+  <content>Document.ОплатаКлиентом</content>
+  <content>Document.РегистрацияМаршрута</content>
+  <content>Report.ОтчетОМатериалах</content>
+  <content>Catalog.Поставщики</content>
+  <content>AccumulationRegister.ВзаиморасчетыСКлиентами</content>
+  <content>AccumulationRegister.ВзаиморасчетыСПоставщиками</content>
+  <content>AccumulationRegister.ОстаткиПродукции</content>
+  <content>InformationRegister.СпецификацииПродукции</content>
+  <content>Report.ОтчетОПродукции</content>
+  <content>Report.ОтчетОВзаиморасчетах</content>
 </mdclass:Subsystem>
